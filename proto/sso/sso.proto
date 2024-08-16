@@ -21,7 +21,6 @@ message IsAdminRequest {
 
 message IsAdminResponse {
   bool is_admin = 1;
-  int64 s = 2;// Indicates whether the user is an admin.
 }
 
 message RegisterRequest {
